@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -141,6 +140,48 @@ footer nav {
 }
 
 footer nav a {
+    display: flex;
     color: white;
     text-decoration: none;
+    justify-content: space-between;
 }
+ .first {
+     background: teal
+ }
+ 
+ .second {
+     background: gold;
+}
+
+.third {
+    background: cadetblue;
+}
+
+.fourth {
+    background: coral;
+}
+
+.fifth {
+    background: crimson;
+}
+
+.sixth {
+    background: forestgreen;
+}
+
+.seventh {
+    background: darkorchid;
+}
+
+.eighth {
+    background: hotpink;
+}
+
+.ninth {
+    background: indigo;
+}
+
+.tenth {
+    background: dodgerblue;
+}
+
