@@ -186,29 +186,23 @@ footer nav a {
 }
 
 div nav {
-    width: 60%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
     font-size: 14px;
     align-items: baseline;
 }
 
 .topnav {
-    display: flex;
     color: black;
     text-decoration: none;
-    margin-left: 20px;
-    margin-right: 60px;
-    align-items: baseline;
+    
+    
 }
 
 .topdiv {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    justify-content: flex-start;
     align-items: center;
     padding-top: 20px;
 }
@@ -218,8 +212,3 @@ div nav {
 }
 
 /* CSS FROM NOW ON IS FOR ABOUT.HTML
-
-
-
-
-
