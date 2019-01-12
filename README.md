@@ -34,17 +34,17 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-I would say that scemantic HTML is HTML that is for core content rather than stylistic effects
+I would say that scemantic HTML is HTML that is for core content, using appropriate tags for content (ex, navs)
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-Inline does not respect heighth/width, the default width is of its container, and it forces a line break around itslef, whereas block does not do any of these things
+Inline does not respect heighth/width, the default width is of its container, and it forces a line break around itslef, whereas block displays an an element as a block element, starts on a new line and takes up the whole width
 
 3. What are the 4 areas of the box model?
 Margin > Border > Padding > Content
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
-Horizontal (it displays items to the top and bottom)
+It works on the cross axis.
 
 5. Explain why git is valuable to a team of developers.
 git allows you to collaborate on a project while keeping changes logged and separate"
