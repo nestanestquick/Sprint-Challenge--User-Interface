@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -141,6 +140,97 @@ footer nav {
 }
 
 footer nav a {
+    display: flex;
     color: white;
     text-decoration: none;
+    justify-content: space-between;
+}
+ .first {
+     background: teal
+ }
+ 
+ .second {
+     background: gold;
+}
+
+.third {
+    background: cadetblue;
+}
+
+.fourth {
+    background: coral;
+}
+
+.fifth {
+    background: crimson;
+}
+
+.sixth {
+    background: forestgreen;
+}
+
+.seventh {
+    background: darkorchid;
+}
+
+.eighth {
+    background: hotpink;
+}
+
+.ninth {
+    background: indigo;
+}
+
+.tenth {
+    background: dodgerblue;
+}
+
+div nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    align-items: baseline;
+}
+
+.topnav {
+    color: black;
+    text-decoration: none;
+    
+    
+}
+
+.topdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.lambdapic {
+    padding-bottom: 20px;
+}
+
+/* CSS FROM NOW ON IS FOR ABOUT.HTML */
+
+.bottom-border {
+    border-bottom: 1px dashed black;
+    border-width: 45%;
+    flex-direction: row;
+    padding-top: 25px;
+}
+
+.about-div {
+    border-bottom: 1px dashed black;
+    padding-bottom: 25px;
+    
+}
+
+.learn-more {
+    border: 5px, solid red;
+    border-radius: 25px;
+}
+
+.div-flex {
+    display: flex;
 }
