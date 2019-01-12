@@ -211,4 +211,18 @@ div nav {
     padding-bottom: 20px;
 }
 
-/* CSS FROM NOW ON IS FOR ABOUT.HTML
+/* CSS FROM NOW ON IS FOR ABOUT.HTML */
+
+.bottom-border {
+    border-bottom: 1px dashed black;
+    width: 48%;
+}
+
+.about-div {
+    border-bottom: 1px dashed black;
+    
+}
+
+.learn-more {
+    border: 1px, round black;
+}
