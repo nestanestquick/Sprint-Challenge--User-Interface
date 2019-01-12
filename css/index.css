@@ -215,14 +215,22 @@ div nav {
 
 .bottom-border {
     border-bottom: 1px dashed black;
-    width: 48%;
+    border-width: 45%;
+    flex-direction: row;
+    padding-top: 25px;
 }
 
 .about-div {
     border-bottom: 1px dashed black;
+    padding-bottom: 25px;
     
 }
 
 .learn-more {
-    border: 1px, round black;
+    border: 5px, solid red;
+    border-radius: 25px;
+}
+
+.div-flex {
+    display: flex;
 }
